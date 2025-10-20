@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) navigator.serviceWorker.register('/paylabs-resources/dev-sw.js?dev-sw', { scope: '/paylabs-resources/', type: 'classic' })

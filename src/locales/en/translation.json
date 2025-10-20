@@ -1,0 +1,76 @@
+{
+  "resources_nav": "Resources",
+  "plugins_nav": "Plugins",
+  "sandbox_nav": "Sandbox",
+  "hero_title": "Integration Resources for Paylabs",
+  "hero_subtitle": "Official documentation, code examples, Postman collection, and signature playground — all in one page.",
+  "cta_docs": "View Documentation",
+  "plugin_section": "Plugins & Integrations",
+  "footer_text": "© {{year}} Paylabs Resources · API Reference",
+
+  "resources": {
+    "highlights": [
+      {
+        "title": "Technical Documentation (API Reference)",
+        "desc": "Endpoint specifications, parameters, response schema, and example requests. The main reference for backend integration with Paylabs.",
+        "href": "https://paylabs.co.id/api-reference.html",
+        "badge": "Official"
+      },
+      {
+        "title": "Generate RSA Key (Quick)",
+        "desc": "External utility to create RSA key pairs. For production, generate keys securely on your own server.",
+        "href": "https://cryptotools.net/rsagen",
+        "badge": "Third-Party",
+        "disclaimer": "Use for testing only. For production, generate keys in a controlled environment."
+      },
+      {
+        "title": "Code Examples (GitHub)",
+        "desc": "Examples of signature generation, API requests, and response handling.",
+        "href": "https://github.com/paylabs/Paylabs-API-Example/",
+        "badge": "Example"
+      },
+      {
+        "title": "Postman Collection (Ready to Test)",
+        "desc": "Preconfigured endpoints ready to execute. Adjust environment variables & authorization.",
+        "href": "https://www.postman.com/paylabs-id/paylabs/collection/",
+        "badge": "Tools"
+      },
+      {
+        "title": "Signature Playground",
+        "desc": "Interactive environment to test signature creation and verification.",
+        "href": "https://signature-playground.wpdpl.com/",
+        "badge": "Sandbox"
+      }
+    ],
+    "plugins": [
+      {
+        "name": "WooCommerce Integration",
+        "desc": "Direct integration with your WooCommerce store to process Paylabs payments seamlessly.",
+        "href": "https://woocommerce.com/products/paylabs-integration/",
+        "badge": "plugin",
+        "status": "production"
+      },
+      {
+        "name": "Shopify Connector",
+        "desc": "Connector for Shopify merchants to enable Paylabs payment acceptance easily.",
+        "href": "#",
+        "badge": "plugin",
+        "status": "on-dev"
+      },
+      {
+        "name": "Postman Sandbox",
+        "desc": "A ready-to-test collection of endpoints using the official Paylabs Postman environment.",
+        "href": "https://www.postman.com/paylabs-id/paylabs/collection/",
+        "badge": "plugin",
+        "status": "testing"
+      },
+      {
+        "name": "Magento Module",
+        "desc": "Upcoming Magento integration designed for enterprise merchants.",
+        "href": "#",
+        "badge": "plugin",
+        "status": "coming-soon"
+      }
+    ]
+  }
+}

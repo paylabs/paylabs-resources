@@ -1,0 +1,73 @@
+{
+  "resources_nav": "Sumber Daya",
+  "plugins_nav": "Plugin",
+  "sandbox_nav": "Sandbox",
+  "hero_title": "Sumber Daya Integrasi Paylabs",
+  "hero_subtitle": "Dokumentasi resmi, contoh kode, koleksi Postman, hingga sandbox signature — semua dalam satu halaman.",
+  "cta_docs": "Lihat Dokumentasi",
+  "plugin_section": "Plugin & Integrasi",
+  "footer_text": "© {{year}} Paylabs Resources · API Reference",
+
+  "resources": {
+    "highlights": [
+      {
+        "title": "Dokumentasi Teknis (API Reference)",
+        "desc": "Spesifikasi endpoint, parameter, skema respons, dan contoh request. Rujukan utama untuk integrasi backend ke Paylabs.",
+        "href": "https://paylabs.co.id/api-reference.html",
+        "badge": "Official"
+      },
+      {
+        "title": "Generate RSA Key (Quick)",
+        "desc": "Utilitas eksternal untuk membuat pasangan kunci RSA. Untuk produksi, buat kunci di server Anda sendiri.",
+        "href": "https://cryptotools.net/rsagen",
+        "badge": "Third-Party",
+        "disclaimer": "Gunakan untuk percobaan. Produksi: generate di environment terkontrol."
+      },
+      {
+        "title": "Contoh Kode (GitHub)",
+        "desc": "Contoh implementasi signature, pemanggilan API, dan penanganan respons.",
+        "href": "https://github.com/paylabs/Paylabs-API-Example/",
+        "badge": "Example"
+      },
+      {
+        "title": "Postman Collection (Siap Uji)",
+        "desc": "Koleksi endpoint siap dijalankan. Sesuaikan variable environment & authorization.",
+        "href": "https://www.postman.com/paylabs-id/paylabs/collection/",
+        "badge": "Tools"
+      },
+      {
+        "title": "Signature Playground",
+        "desc": "Uji pembuatan dan verifikasi signature secara interaktif.",
+        "href": "https://signature-playground.wpdpl.com/",
+        "badge": "Sandbox"
+      }
+    ],
+    "plugins": [
+      {
+        "name": "WooCommerce Integration",
+        "desc": "Integrasi dengan toko WooCommerce untuk pembayaran Paylabs.",
+        "href": "https://woocommerce.com/products/paylabs-integration/",
+        "badge": "production"
+      },
+      {
+        "name": "Shopify Connector",
+        "desc": "Konektor Shopify untuk merchant Paylabs.",
+        "href": "#",
+        "badge": "on-dev"
+      },
+      {
+        "name": "Postman Sandbox",
+        "desc": "Koleksi endpoint siap uji menggunakan environment Postman bawaan.",
+        "href": "https://www.postman.com/paylabs-id/paylabs/collection/",
+        "badge": "testing"
+      },
+      {
+        "name": "Magento Module",
+        "desc": "Integrasi Magento yang akan segera hadir.",
+        "href": "#",
+        "badge": "plugin",
+        "status": "coming-soon"
+      }
+    ]
+  }
+}
